@@ -13,7 +13,6 @@ I build resilient distributed systems, specializing in Web3 infrastructure, data
 
 ### Featured Projects
 
-- **Project Shield:** A non-custodial P2P cryptocurrency exchange for the USDT/ETB market. Built as a standalone adaptive Web App with a streamlined, intent-driven onboarding flow.
 - **Teleshop:** A data aggregation platform that extracts, structures, and serves e-commerce data from high-volume shopping channels.
 - **Custom LMS Infrastructure:** Customized deployment and development of Moodle learning management systems. 
 
