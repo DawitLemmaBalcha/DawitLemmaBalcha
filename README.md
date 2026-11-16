@@ -1,23 +1,61 @@
-## Dawit Lemma Balcha
+# Dawit Lemma Balcha
 
-**Senior Fullstack Engineer** 
+Backend engineer working on AI evaluation: I review model-generated code, write
+rubrics and benchmark tasks, and build the Python tooling around that work.
 
-I build resilient distributed systems, specializing in Web3 infrastructure, data aggregation, and autonomous AI agent orchestration. I focus on clean architecture, system performance optimization, and creating adaptive web applications.
+## What I do
 
-### Engineering Focus
+**Evaluation and review**
 
-- **Web3 & FinTech:** Developing non-custodial P2P exchanges and adaptive web apps with frictionless UX.
-- **AI Orchestration:** Configuring MCP servers and custom architect agents (OpenCode, OpenClaw) to optimize automated workflows.
-- **Data Architecture:** Aggregating and structuring high-volume e-commerce data streams.
-- **Infrastructure:** System performance tuning, bare-metal optimization, and mesh networking (Tailscale).
+- Review model output in Python, TypeScript, Go, Java, and occasional C# against
+  task specs and repository conventions. Every verdict carries a short written
+  rationale.
+- Write rubrics and reviewer guidelines; calibrated two reviewers on rubric edge
+  cases and revised the guidelines where we kept disagreeing.
+- Author benchmark tasks with hidden tests and Docker-based setup.
+- Triage GitHub issues: reproduce bugs, check test coverage, rate difficulty.
+- Run light red-team passes on coding assistants (prompt injection, insecure
+  suggestions) with written findings.
 
-### Featured Projects
+**Engineering**
 
-- **Teleshop:** A data aggregation platform that extracts, structures, and serves e-commerce data from high-volume shopping channels.
-- **Custom LMS Infrastructure:** Customized deployment and development of Moodle learning management systems. 
+- FastAPI and Django services on PostgreSQL and Redis; REST APIs.
+- React and Next.js when the work needs a UI.
+- Docker and GitHub Actions; AWS (EC2, S3, Lambda, ECS); some Kubernetes and
+  Terraform.
+- pandas and Jupyter for analysis; OWASP basics and dependency scanning as part
+  of review.
 
-### Core Stack
+## Numbers
 
-- **Languages:** TypeScript, Python, SQL
-- **Ecosystem:** Node.js, React, Web3/Etherscan APIs
-- **Infrastructure:** Docker, VPS Deployment, Git
+- Roughly 200 GitHub issues triaged across Python, JavaScript, and Java projects.
+- About 40 benchmark tasks written with hidden tests and Docker setup scripts; six public examples are in code-review-bench.
+- Two reviewers calibrated on rubric edge cases.
+
+## Selected work
+
+| Repository | What it is |
+|---|---|
+| [issue-triage-notes](https://github.com/DawitLemmaBalcha/issue-triage-notes) | Python CLI that groups issues by label and drafts reproduction steps |
+| [code-review-bench](https://github.com/DawitLemmaBalcha/code-review-bench) | Review benchmark across Python, JavaScript, Go and Java: hidden tests, rubric, Docker runner |
+| [agent-workflow](https://github.com/DawitLemmaBalcha/agent-workflow) | Agent engineering loop with a review rubric and a calibration protocol |
+| [index_gebeya](https://github.com/DawitLemmaBalcha/index_gebeya) | Telegram-native marketplace: FastAPI, Postgres/pgvector, React Mini App, LLM extraction |
+| [Momentum engine](https://github.com/DawitLemmaBalcha/Momentum-Confirmed_Volatility-Adjusted_Engine) | Python backtesting engine with an optional TimesFM forecast gate |
+| [Class-2 Swarm Engine](https://github.com/DawitLemmaBalcha/Class-2-Swarm-Engine) | Multi-container Solana trading system with an LLM-free execution boundary |
+
+## Writing
+
+- [Review rubric](https://github.com/DawitLemmaBalcha/agent-workflow/blob/main/skills/engineering-loop/references/review-rubric.md):
+  severities, verdicts, evidence rules, and test-quality checks for model output.
+- [Benchmark rubric](https://github.com/DawitLemmaBalcha/code-review-bench/blob/main/rubric.md)
+  and [red-team checklist](https://github.com/DawitLemmaBalcha/code-review-bench/blob/main/redteam.md).
+- [Calibration protocol](https://github.com/DawitLemmaBalcha/code-review-bench/blob/main/calibration.md)
+  for reviewer disagreement.
+
+## Stack
+
+`Python` `TypeScript` `Go` `Java` `SQL`
+`FastAPI` `Django` `PostgreSQL` `Redis`
+`React` `Next.js`
+`Docker` `GitHub Actions` `AWS`
+`pandas` `Jupyter`
