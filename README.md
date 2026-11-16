@@ -50,6 +50,8 @@ rubrics and benchmark tasks, and build the Python tooling around that work.
   and [red-team checklist](https://github.com/DawitLemmaBalcha/code-review-bench/blob/main/redteam.md).
 - [Calibration protocol](https://github.com/DawitLemmaBalcha/code-review-bench/blob/main/calibration.md)
   for reviewer disagreement.
+- [Calibrating a browser agent across 13 site classes](https://gist.github.com/DawitLemmaBalcha/197a5ae85e4316937609c2402c40c0cb):
+  measured call budgets, failure modes, and when the agent should stop.
 
 ## Stack
 
