@@ -38,10 +38,9 @@ rubrics and benchmark tasks, and build the Python tooling around that work.
 |---|---|
 | [issue-triage-notes](https://github.com/DawitLemmaBalcha/issue-triage-notes) | Python CLI that groups issues by label and drafts reproduction steps |
 | [code-review-bench](https://github.com/DawitLemmaBalcha/code-review-bench) | Review benchmark across Python, JavaScript, Go and Java: hidden tests, rubric, Docker runner |
+| [Momentum engine](https://github.com/DawitLemmaBalcha/Momentum-Confirmed_Volatility-Adjusted_Engine) | Event-driven quant research engine: intrabar replay, walk-forward optimisation, strategy ensembles, and a TimesFM foundation-model entry gate |
 | [agent-workflow](https://github.com/DawitLemmaBalcha/agent-workflow) | Agent engineering loop with a review rubric and a calibration protocol |
 | [index_gebeya](https://github.com/DawitLemmaBalcha/index_gebeya) | Telegram-native marketplace: FastAPI, Postgres/pgvector, React Mini App, LLM extraction |
-| [Momentum engine](https://github.com/DawitLemmaBalcha/Momentum-Confirmed_Volatility-Adjusted_Engine) | Python backtesting engine with an optional TimesFM forecast gate |
-| [Class-2 Swarm Engine](https://github.com/DawitLemmaBalcha/Class-2-Swarm-Engine) | Multi-container Solana trading system with an LLM-free execution boundary |
 
 ## Writing
 
